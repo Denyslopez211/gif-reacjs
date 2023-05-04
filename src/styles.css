@@ -10,7 +10,6 @@ body {
 form {
 	display: flex;
 	justify-content: center;
-	
 }
 
 input {
@@ -30,7 +29,6 @@ input {
 	width: 50px;
 }
 
-
 button {
 	background: none;
 	border: 1px solid rgb(97, 32, 158);
@@ -38,7 +36,7 @@ button {
 	font-size: 1rem;
 	font-weight: bold;
 	color: white;
-	letter-spacing: .25px;
+	letter-spacing: 0.25px;
 	border-radius: 24px;
 	background: none;
 	border: 1px solid rgb(97, 32, 158);
@@ -87,7 +85,6 @@ p {
 	gap: 0.5em;
 }
 
-
 .card-grid {
 	display: flex;
 	flex-direction: row;
@@ -98,7 +95,7 @@ p {
 .card {
 	align-content: center;
 	align-items: center;
-	
+
 	border-radius: 10px;
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
 	display: flex;
