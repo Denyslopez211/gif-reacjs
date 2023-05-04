@@ -7,6 +7,12 @@ body {
 	padding: 60px;
 }
 
+form {
+	display: flex;
+	justify-content: center;
+	
+}
+
 input {
 	background-color: #2c2f38;
 	border-radius: 5px;
@@ -15,7 +21,45 @@ input {
 	font-size: 1.2rem;
 	outline: none;
 	padding: 10px 15px;
-	width: 100%;
+}
+
+.txt-buscar {
+	width: 80%;
+}
+.limit {
+	width: 50px;
+}
+
+
+button {
+	background: none;
+	border: 1px solid rgb(97, 32, 158);
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	letter-spacing: .25px;
+	border-radius: 24px;
+	background: none;
+	border: 1px solid rgb(97, 32, 158);
+	height: 48px;
+	padding: 0 24px 0 16px;
+}
+
+.btn-buscar:hover {
+	color: green;
+	border: 2px solid white;
+}
+
+.delete {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.delete:hover {
+	color: red;
+	border: 2px solid white;
 }
 
 h1 {
@@ -37,6 +81,13 @@ p {
 	color: white;
 }
 
+.container-title {
+	display: flex;
+	align-items: flex-end;
+	gap: 0.5em;
+}
+
+
 .card-grid {
 	display: flex;
 	flex-direction: row;
@@ -47,7 +98,7 @@ p {
 .card {
 	align-content: center;
 	align-items: center;
-	background-color: #2c2f38;
+	
 	border-radius: 10px;
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
 	display: flex;
@@ -60,7 +111,6 @@ p {
 }
 
 .card p {
-	background-color: #2c2f38;
 	color: white;
 	flex: 1;
 	font-size: 1.5rem;
